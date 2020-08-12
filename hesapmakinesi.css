@@ -1,0 +1,62 @@
+body {
+    background: #4b4b4b;
+}
+
+#hesapmakinesi {
+    box-shadow: 20px 10px;
+    margin: 0px;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    background-color: #0970d1;
+    border-radius: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ekran {
+    pad: 10px 0px;
+    text-align: center;
+}
+
+#textbox {
+    margin-top: 3px;
+    width: 90%;
+    height: 35px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+    text-align: right;
+    word-wrap: break-word;
+    font-size: 35px;
+}
+
+#geçmiş {
+    position: absolute;
+    width: 200px;
+    margin-left: 250px;
+    height: 300px;
+    box-shadow: 20px 15px black;
+    background-color: gray;
+    border-radius: 15%;
+    font-size: 35px;
+    border-style: 5px inset;
+    border-color: black;
+}
+
+button {
+    background: transparent;
+    width: 55px;
+    height: 35px;
+    margin: 2px;
+    border-radius: 15%;
+    border-style: solid;
+    border-color: black;
+    font-size: 25px;
+    color: white;
+}
+
+#ilk {
+    margin-left: 33px;
+}
