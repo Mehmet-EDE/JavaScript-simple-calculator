@@ -1,0 +1,93 @@
+body {
+    background: #4b4b4b;
+}
+
+#hesapmakinesi {
+    box-shadow: 20px 10px 100px gray;
+    margin: 0px;
+    width: 255px;
+    height: 330px;
+    position: absolute;
+    background-color: #0984e3;
+    border-radius: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ekran {
+    position: relative;
+    pad: 10px 0px;
+    text-align: center;
+    top: 40px;
+}
+
+#textbox {
+    width: 95%;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+    text-align: right;
+    word-wrap: break-word;
+    font-size: 45px;
+    outline: none;
+}
+
+button {
+    background: transparent;
+    width: 55px;
+    height: 35px;
+    margin: 2px;
+    border-radius: 15%;
+    border-style: solid;
+    box-shadow: 4px 0.2px 5px rgb(10, 91, 126);
+    border-color: black;
+    font-size: 25px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900 bold;
+    outline: none;
+}
+
+button:hover {
+    transition: 0.2s;
+    background: gray;
+    box-shadow: 0 0 5px honeydew;
+}
+
+#geçmiş {
+    outline: none;
+    resize: none;
+    position: absolute;
+    left: 255px;
+    height: 330px;
+    width: 190px;
+    opacity: 0.5;
+    border-radius: 10px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.ops {
+    position: relative;
+    display: table-column-group;
+    left: 95px;
+    bottom: 196px;
+}
+
+.rakam {
+    position: relative;
+    right: 22px;
+}
+
+.equal {
+    position: absolute;
+    bottom: 195px;
+    right: 60px;
+}
+
+.element {
+    position: relative;
+    right: 20px;
+}
